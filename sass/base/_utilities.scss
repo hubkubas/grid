@@ -13,27 +13,5 @@
 .u-margin-bottom-big {
   margin-bottom: 3rem;
 
-  @media only screen and (min-width: 768px) {
-    margin-bottom: 8rem;
-  }
 }
 
-.nodisplay {
-  display: none;
-}
-
-.min_nodisplay {
-  @media only screen and (max-width: 767px) {
-    display: none;
-  }
-}
-
-.min_display {
-  @media only screen and (min-width: 768px) {
-    display: none;
-  }
-}
-
-.margin {
-  margin: 0 2rem;
-}
